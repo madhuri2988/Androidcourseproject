@@ -18,5 +18,9 @@
         android:id="@+id/addevent"
         android:orderInCategory="120"
         android:title="Add Event"/>
+    <item
+        android:id="@+id/listview"
+        android:orderInCategory="180"
+        android:title="List View"/>
 
 </menu>

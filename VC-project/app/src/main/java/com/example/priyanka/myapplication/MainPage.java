@@ -72,6 +72,10 @@ public class MainPage extends AppCompatActivity {
 
 
                 break;
+            case R.id.listview:
+                Intent intent1 = new Intent(getApplicationContext(), List_Activity.class);
+                startActivity(intent1);
+                break;
             case R.id.about:
                 break;
 

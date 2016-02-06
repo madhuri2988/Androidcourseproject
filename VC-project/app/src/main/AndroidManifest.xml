@@ -26,7 +26,7 @@
         <activity
             android:name=".VolunteerHomePage"
             android:label="@string/title_activity_volunteer_home_page"
-            android:theme="@style/AppTheme.NoActionBar"></activity>
+            android:theme="@style/AppTheme.NoActionBar" />
         <activity
             android:name=".LoginActivity1"
             android:label="Login"
@@ -37,7 +37,9 @@
         <activity
             android:name=".AddEventActivity"
             android:label="@string/title_activity_add_event"
-            android:theme="@style/AppTheme.NoActionBar"></activity>
+            android:theme="@style/AppTheme.NoActionBar" />
+        <activity android:name=".List_Activity" />
+        <activity android:name=".EventDetailsActivity"></activity>
     </application>
 
 </manifest>
